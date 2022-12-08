@@ -19,10 +19,39 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  padding: 16px;
+  height: 100vh;
+  display: flex;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
+  flex: 0 1 25%;
+  margin:1px;
+  display: flex;
+}
+
+.content{
+  display: flex;
+  flex-grow: 1;
+}
+
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.cards{
+  display: flex;
+  padding: 32px;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
